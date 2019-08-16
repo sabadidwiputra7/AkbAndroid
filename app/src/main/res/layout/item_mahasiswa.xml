@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/gmbrProfil"
+        android:src="@drawable/cung"
+        android:layout_width="75dp"
+        android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvNim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIM"/>
+
+            <TextView
+                android:id="@+id/tvNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"/>
+            <TextView
+                android:id="@+id/tvKelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kelas"/>
+            <TextView
+                android:id="@+id/tvTelepon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="telepon"/>
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="email"/>
+            <TextView
+                android:id="@+id/tvMedsos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sosmed"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

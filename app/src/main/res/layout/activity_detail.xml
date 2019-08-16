@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:id="@+id/lvet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_below="@id/etNim"
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="textPersonName"/>
+
+        <EditText
+            android:id="@+id/etKelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Kelas"
+            android:inputType="textPersonName"/>
+        <EditText
+            android:id="@+id/etTelepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Telepon"
+            android:inputType="textPersonName"/>
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Email"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:id="@+id/etMedsos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Media Sosial"
+            android:inputType="textPersonName"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/lvet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perbarui"/>
+
+        <Button
+            android:id="@+id/btnHapus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hapus"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahTeman"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/nimmhs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint=" NIM"/>
+
+    <EditText
+        android:id="@+id/namamhs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Nama Mahasiswa"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/kelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Kelas"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/telepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Telepon"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/medsos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Media Sosial IG"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"/>
+    <Button
+        android:id="@+id/btnTampil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Mahasiswa"/>
+
+</LinearLayout>
